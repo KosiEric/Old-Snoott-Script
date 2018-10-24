@@ -1,0 +1,532 @@
+body {
+
+
+}
+#big-profile-div{
+  border : 1px solid grey;
+  background-color : #fff;
+  width : 80%;
+  margin : 40px auto;
+  position: relative;
+  top : 60px;
+border: 1px solid rgba(15,186,178,.1);
+}
+.inside-profile-container{
+  display: block;
+  font-size: 19px;
+  color : #1e3948;
+   font-family: "cairo" , Segoe UI,Arial,sans-serif;
+ // margin-left : 20px;
+}
+
+#user-profile-image{
+  display: block;
+  //margin-top : 40px;
+  width : 100px;
+  height : 100px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  cursor : pointer;
+  border : 1px solid grey;
+  position: relative;
+  background-size: cover;
+  margin-left : auto;
+  margin-right: auto;
+}
+
+#profile-content-container{
+  margin : 20px auto;
+  width : 20%;
+  text-align: center;
+//  border : 1px solid grey;
+
+}
+.inside-profile-container .fa-gear
+{
+  color : #10BBB3;
+  cursor : pointer;
+
+}
+#logged-username{
+  font-size: 19px;
+  font-weight: bold;
+
+}
+
+#profile-ads{
+  font-weight: 600;
+  font-size : 14px;
+ // margin-left : 12px;
+  margin-bottom: 12px;
+}
+
+#profile-address a{
+  color : #10BBB3;
+  cursor : pointer;
+ font-size: 14px;
+  font-weight: bold;
+font-family: Cairo;
+  text-decoration: none;
+}
+
+#large-profile-image-container{
+      position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 , 0 , 0 , 0.7);
+  z-index: 999;
+    top: 0;
+    left: 0;
+ display: none;
+}
+
+#user-profile-large{
+ display: block;
+margin :  20% auto 20px auto;
+ max-width : 80%;
+  max-height : 60%;
+  position: relative;
+  bottom: 50px;
+  height : auto;
+  width : auto;
+//image-rendering: auto;
+ //image-rendering: crisp-edges;
+ image-rendering: auto;
+  opacity: 1;
+  overflow: hidden;
+  border : none;
+  filter : brightness(110%);
+  filter : contrast(1.145);
+  -webkit-filter: brightness(110%);
+  -webkit-filter : contrast(1.145);
+
+  }
+
+.fa-remove{
+  color : #fff;
+  margin : 20px 12px 0px 95%;
+  cursor: pointer;
+
+}
+
+#account-toggle{
+  background-color : inherit;
+  margin-right : -10px;
+  width : 60%;
+}
+.toggles:hover {
+  color : rgba(0,0,255,0.5);
+  font-weight:;
+ // background-color : rgb(56,151,240 , 0.4);
+border : 0px;
+
+}
+#profile-toggle{
+  right : -6px;
+   width :40%;
+  background-color : #fff;
+}
+
+#settings-drop-down-container{
+  width : 600px;
+  position: relative;
+  top : -30px;
+
+  border : 1px solid rgba(210 , 210 , 210 , 0.4);
+  border-top : none;
+  margin : 0px auto;
+}
+#main-settings-toggle{
+   background-color : rgba(210 , 210 , 210 , 0.4);
+margin-top : 100px;
+
+  height : 60px;
+  border : 1px solid rgba(210 , 210 , 210 , 0.4);
+ margin : 100px auto 30px auto;
+  width : 80%;
+  //display: none;
+}
+
+.toggles{
+
+  cursor: pointer;
+ display : inline-block;
+  border : none;
+  text-align: center;
+  height : inherit;
+  border : 0px;
+  position: relative;
+//  background-color : inherit;
+  font-size : 15px;
+  font-family : Arial;
+  color : rgba(0,0,0,0.5);
+}
+
+#ads-toggle{
+  background-color : inherit;
+  margin-right : -10px;
+  width : 60%;
+}
+.toggles:hover {
+  color : rgba(0,0,255,0.5);
+  font-weight:;
+ // background-color : rgb(56,151,240 , 0.4);
+border : 0px;
+
+}
+#favorites-toggle{
+  right : -6px;
+   width :40%;
+  background-color : #fff;
+}
+.ad-links{
+
+  display: block;
+  width : ;
+  margin : 0px auto;
+  text-align: center;
+  background-color : #fff;
+  border-top : 1px solid lightgrey;
+  text-decoration: none;
+  font-size: 18px;
+  color : blue;
+  font-weight: \bold;
+  padding : 12px 0px;
+  border-radius: 1px;
+  font-family: Cairo;
+  //font-weight: bold;
+
+}
+
+.ad-user-links {
+
+display: inline-table;
+  width : 200px;
+ margin-right: 4.74%;
+  height : 200px;
+
+  background-color : #fff;
+  border : 1px solid lightgrey;
+  text-decoration: none;
+  font-size: 14px;
+  color : blue;
+  font-weight: normal;
+  border-radius: 1px;
+  font-family: Cairo;
+  //font-weight: bold;
+   text-align: center;
+   color : #fff;
+  margin-top : 22px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  cursor: pointer;
+}
+ .containers{
+  width : 80%;
+  border : 1px solid lightgrey;
+  margin-top: 20px;
+  //margin-left :auto;
+  //margin-right : auto;
+  border-top : 0px;
+  border-bottom: 1px solid lightgrey;
+  //margin-bottom : 60px;
+   padding-left : 15%;
+}
+#favorites-ads-container {
+  display: none;
+}
+#post-span {
+  height : 20px;
+  display: block;
+  //background-color : #fff;
+
+  text-align: center;
+  //margin-bottom: 12px;
+  color : grey;
+  width : 80%;
+  margin-left : auto;
+  margin-right : auto;
+  margin-bottom: 60px;
+  border : 0px solid lightgrey;
+   border-top : 0px solid lightgrey;
+}
+#post-loader{
+  border : none;
+}
+#user-ads-container{
+  border : none;
+}
+
+.ad-title{
+  color : skyblue;
+}
+.fa-remove:hover {
+  color : grey;
+}
+@media only screen and (max-width: 606px) {
+  
+#big-profile-div{
+  border : 1px solid grey;
+  background-color : #fff;
+  width : 100%;
+  margin : 40px auto;
+  position: relative;
+  top : 60px;
+border: 1px solid rgba(15,186,178,.1);
+}
+.inside-profile-container{
+  display: block;
+  font-size: 19px;
+  color : #1e3948;
+   font-family: "cairo" , Segoe UI,Arial,sans-serif;
+ // margin-left : 20px;
+}
+
+#user-profile-image{
+  display: block;
+  //margin-top : 40px;
+  width : 100px;
+  height : 100px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  cursor : pointer;
+  border : 1px solid grey;
+  position: relative;
+  background-size: cover;
+  margin-left : auto;
+  margin-right: auto;
+}
+
+#profile-content-container{
+  margin : 20px auto;
+  width : 100%;
+  text-align: center;
+border : -moz-elementpx solid grey;
+
+}
+.inside-profile-container .fa-gear
+{
+  color : #10BBB3;
+  cursor : pointer;
+
+}
+#logged-username{
+  font-size: 19px;
+  font-weight: bold;
+
+}
+
+#profile-ads{
+  font-weight: 600;
+  font-size : 14px;
+ // margin-left : 12px;
+  margin-bottom: 12px;
+}
+
+#profile-address a{
+  color : #10BBB3;
+  cursor : pointer;
+ font-size: 14px;
+  font-weight: bold;
+font-family: Cairo;
+  text-decoration: none;
+}
+
+#large-profile-image-container{
+      position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 , 0 , 0 , 0.7);
+  z-index: 999;
+    top: 0;
+    left: 0;
+ display: none;
+}
+
+#user-profile-large{
+ display: block;
+margin :  20% auto 20px auto;
+ max-width : 80%;
+  max-height : 60%;
+  position: relative;
+  bottom: 50px;
+  height : auto;
+  width : auto;
+//image-rendering: auto;
+ //image-rendering: crisp-edges;
+ image-rendering: auto;
+  opacity: 1;
+  overflow: hidden;
+  border : none;
+  filter : brightness(110%);
+  filter : contrast(1.145);
+  -webkit-filter: brightness(110%);
+  -webkit-filter : contrast(1.145);
+
+  }
+.fa-remove{
+  color : #fff;
+  margin : 20px 12px 0px 95%;
+  cursor: pointer;
+
+}
+
+#account-toggle{
+  background-color : inherit;
+  margin-right : -10px;
+  width : 60%;
+}
+.toggles:hover {
+  color : rgba(0,0,255,0.5);
+  font-weight:;
+ // background-color : rgb(56,151,240 , 0.4);
+border : 0px;
+
+}
+#profile-toggle{
+  right : -6px;
+   width :40%;
+  background-color : #fff;
+}
+
+#settings-drop-down-container{
+  width : 600px;
+  position: relative;
+  top : -30px;
+
+  border : 1px solid rgba(210 , 210 , 210 , 0.4);
+  border-top : none;
+  margin : 0px auto;
+}
+
+.toggles{
+
+  cursor: pointer;
+ display : inline-block;
+  border : none;
+  text-align: center;
+  height : inherit;
+  border : 0px;
+  position: relative;
+//  background-color : inherit;
+  font-size : 15px;
+  font-family : Arial;
+  color : rgba(0,0,0,0.5);
+}
+
+#ads-toggle{
+  background-color : inherit;
+  margin-right : -10px;
+  width : 60%;
+}
+.toggles:hover {
+  color : rgba(0,0,255,0.5);
+  font-weight:;
+ // background-color : rgb(56,151,240 , 0.4);
+border : 0px;
+
+}
+#favorites-toggle{
+  right : -6px;
+   width :40%;
+  background-color : #fff;
+}
+.ad-links{
+
+  display: block;
+  width : ;
+  margin : 0px auto;
+  text-align: center;
+  background-color : #fff;
+  border-top : 1px solid lightgrey;
+  text-decoration: none;
+  font-size: 18px;
+  color : blue;
+  font-weight: \bold;
+  padding : 12px 0px;
+  border-radius: 1px;
+  font-family: Cairo;
+  //font-weight: bold;
+
+}
+
+.ad-user-links {
+
+display: inline-table;
+  width : 200px;
+ margin-right: 4.74%;
+  height : 200px;
+
+  background-color : #fff;
+  border : 1px solid lightgrey;
+  text-decoration: none;
+  font-size: 14px;
+  color : blue;
+  font-weight: normal;
+  border-radius: 1px;
+  font-family: Cairo;
+  //font-weight: bold;
+   text-align: center;
+   color : #fff;
+  margin-top : 22px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  cursor: pointer;
+}
+ .containers{
+  width : 80%;
+  border : 1px solid lightgrey;
+  margin-top: 20px;
+  //margin-left :auto;
+  //margin-right : auto;
+  border-top : 0px;
+  border-bottom: 1px solid lightgrey;
+  //margin-bottom : 60px;
+   padding-left : 15%;
+}
+#favorites-ads-container {
+  display: none;
+}
+#post-span {
+  height : 20px;
+  display: block;
+  //background-color : #fff;
+
+  text-align: center;
+  //margin-bottom: 12px;
+  color : grey;
+  width : 80%;
+  margin-left : auto;
+  margin-right : auto;
+  margin-bottom: 60px;
+  border : 0px solid lightgrey;
+   border-top : 0px solid lightgrey;
+}
+#post-loader{
+  border : none;
+}
+#user-ads-container{
+  border : none;
+}
+
+.ad-title{
+  color : skyblue;
+}
+.fa-remove:hover {
+  color : grey;
+}
+  
+  #main-settings-toggle{
+   background-color : rgba(210 , 210 , 210 , 0.4);
+margin-top : 100px;
+
+  height : 60px;
+  border : 1px solid rgba(210 , 210 , 210 , 0.4);
+ margin : 100px auto 30px auto;
+  width : 90%;
+  //display: none;
+}
+
+}

@@ -1,0 +1,1 @@
+<div id = "offline-checker">Network connection lost</div>

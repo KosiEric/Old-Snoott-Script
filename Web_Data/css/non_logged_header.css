@@ -1,0 +1,450 @@
+#main-menu-link {
+  color : #fff;
+}
+#drop-header-container {
+  //height : 3opx;
+  border : 1px solid grey;
+  position : relative;
+//  top : 100px;
+  background-color : #10bbb3;
+  border : none;
+  color : #fff;
+  display: none;
+}
+#menu-home {
+  font-size: 30px;
+  color: #f5f5f5;
+  margin-left : 16px;
+}
+#menu-bar  {
+  float: right;
+  font-size: 30px;
+  margin-right : 16px;
+}
+body {
+
+  margin : none;
+  padding : none;
+  font-family: Cairo;
+}
+
+#non-logged-header-container{
+  
+   display: inline-block;
+  width : 100%;
+  border : 1px solid rgba(220 , 220 , 220 , 0.3);
+//border-radius: 5px;
+  margin : 4px auto;
+border-top : none;
+  border-width: 1px 0px;
+  position: fixed;
+  //bottom: 93%;
+  z-index: 1;
+  background-color : #10BBB3;
+  top : -4px;
+  padding-bottom: 12px;
+}
+.non-logged-header-divs{
+  font-family: cairo;
+ border : none;
+  background-color : inherit;
+  color : rgba(235 ,235 , 235 , 1);
+  font-weight : normal;
+  font-size : 15px;
+   cursor : pointer;
+  outline : none;
+//height : 42px;
+  //width : 200px;
+  margin-top : 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+  
+  //float : right;
+margin-right : 60px;  
+  position : relative;
+    top : 11px;
+  padding-bottom: 13px;
+}
+a.non-logged-header-divs {
+  text-decoration: none;
+  
+}
+#non-logged-header-container .fa{
+  color : rgba(0 ,0 , 0 , 0.5);
+}
+
+.fa-bullhorn , .fa-user-circle , .fa-gear{
+  margin-right : 12px;
+}
+.fa-user-circle{
+  //color : white;
+}
+.non-logged-header-divs:hover {
+  
+  border-bottom : 1px solid #fff;
+}
+
+#first-off-header-div{
+  margin-left : 20px;
+}
+
+#user-link-header {
+
+display: inline-block;
+  //border : 1px solid gray;
+  position: relative;
+  float: right;
+  top : 5px;
+  height: 40px;
+  width : 80px;
+  margin-right : 35px;
+   background-image : url(/Web_Data/img/llogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+#user-link-header:hover {
+  border : none;
+}
+#main-menu-link {
+  color : #fff;
+}
+#drop-header-container {
+  //height : 3opx;
+  border : 1px solid grey;
+  position : relative;
+//  top : 100px;
+  background-color : #10bbb3;
+  border : none;
+  color : #fff;
+  display: none;
+}
+#menu-home {
+  font-size: 30px;
+  color: #f5f5f5;
+  margin-left : 16px;
+}
+#menu-bar  {
+  float: right;
+  font-size: 30px;
+  margin-right : 16px;
+}
+body {
+
+  margin : none;
+  padding : none;
+  font-family: Cairo;
+}
+
+#non-logged-header-container{
+  
+   display: inline-block;
+  width : 100%;
+  border : 1px solid rgba(220 , 220 , 220 , 0.3);
+//border-radius: 5px;
+  margin : 4px auto;
+border-top : none;
+  border-width: 1px 0px;
+  position: fixed;
+  //bottom: 93%;
+  z-index: 1;
+  background-color : #10BBB3;
+  top : -4px;
+  padding-bottom: 12px;
+}
+.non-logged-header-divs{
+  font-family: cairo;
+ border : none;
+  background-color : inherit;
+  color : rgba(235 ,235 , 235 , 1);
+  font-weight : normal;
+  font-size : 15px;
+   cursor : pointer;
+  outline : none;
+//height : 42px;
+  //width : 200px;
+  margin-top : 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+  
+  //float : right;
+margin-right : 60px;  
+  position : relative;
+    top : 11px;
+  padding-bottom: 13px;
+}
+a.non-logged-header-divs {
+  text-decoration: none;
+  
+}
+#non-logged-header-container .fa{
+  color : rgba(0 ,0 , 0 , 0.5);
+}
+
+.fa-bullhorn , .fa-user-circle , .fa-gear{
+  margin-right : 12px;
+}
+.fa-user-circle{
+  //color : white;
+}
+.non-logged-header-divs:hover {
+  
+  border-bottom : 1px solid #fff;
+}
+
+#first-off-header-div{
+  margin-left : 20px;
+}
+
+#user-link-header {
+
+display: inline-block;
+  //border : 1px solid gray;
+  //position: fixed;
+ float: right;
+  top : 5px;
+  height: 40px;
+  width : 80px;
+  margin-right : 35px;
+   background-image : url(/Web_Data/img/llogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+#user-link-header:hover {
+  border : none;
+}
+  
+
+
+  @media only screen and (max-width: 690px) {
+
+    #main-menu-link {
+  color : #fff;
+}
+#drop-header-container {
+  height : 40px;
+  border : 1px solid grey;
+  //position : relative;
+//  top : 100px;
+  background-color : #10bbb3;
+  border : none;
+  color : #fff;
+  display: block;
+  background-image : url(/Web_Data/img/llogo.png);
+  background-size: 40px auto;
+  background-repeat: no-repeat;
+  background-position-y: 10px;
+  background-position-x: 5px;
+}
+#menu-home {
+  font-size: 0px;
+  color: #f5f5f5;
+  margin-left : 16px;
+}
+#menu-bar  {
+ float: right;
+  font-size: 25px;
+  margin-right : 16px;
+    cursor: pointer;
+    margin-top: 12px;
+    }
+    
+    
+body {
+
+  margin : none;
+  padding : none;
+  font-family: Cairo;
+}
+
+#non-logged-header-container{
+  
+   display: inline-block;
+  width : 100%;
+  border : 1px solid rgba(220 , 220 , 220 , 0.3);
+//border-radius: 5px;
+  margin : 4px auto;
+border-top : none;
+  border-width: 1px 0px;
+  position: fixed;
+  //bottom: 93%;
+  z-index: 1;
+  background-color : #10BBB3;
+  top : -4px;
+  padding-bottom: 12px;
+}
+.non-logged-header-divs{
+  font-family: cairo;
+ border : none;
+  background-color : inherit;
+  color : rgba(235 ,235 , 235 , 1);
+  font-weight : normal;
+  font-size : 15px;
+   cursor : pointer;
+  outline : none;
+//height : 42px;
+  //width : 200px;
+  margin-top : 5px;
+  padding-bottom: 5px;
+  display: none;
+  
+  //float : right;
+margin-right : 60px;  
+  position : relative;
+    top : 11px;
+  padding-bottom: 13px;
+  margin-left : 20px;
+}
+    #first-off-header-div {
+      margin-left : 20px;
+    }
+a.non-logged-header-divs {
+  text-decoration: none;
+  
+}
+#non-logged-header-container .fa{
+  color : rgba(0 ,0 , 0 , 0.5);
+}
+
+.fa-bullhorn , .fa-user-circle , .fa-gear{
+  margin-right : 12px;
+}
+.fa-user-circle{
+  //color : white;
+}
+.non-logged-header-divs:hover {
+  
+  //border-bottom : 1px solid #fff;
+  border : none
+    }
+
+#first-off-header-div{
+  margin-left : 20px;
+}
+
+#user-link-header {
+
+display: none;
+  //border : 1px solid gray;
+  position: relative;
+ float: right;
+  top : 5px;
+  height: 40px;
+  width : 80px;
+  margin-right : 35px;
+   background-image : url(/Web_Data/img/llogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+#user-link-header:hover {
+  border : none;
+#main-menu-link {
+  color : #fff;
+}
+#drop-header-container {
+  //height : 3opx;
+  border : 1px solid grey;
+  position : relative;
+//  top : 100px;
+  background-color : #10bbb3;
+  border : none;
+  color : #fff;
+  display: none;
+}
+#menu-home {
+  font-size: 30px;
+  color: #f5f5f5;
+  margin-left : 16px;
+}
+#menu-bar  {
+  float: right;
+  font-size: 30px;
+  margin-right : 16px;
+}
+body {
+
+  margin : none;
+  padding : none;
+  font-family: Cairo;
+}
+
+#non-logged-header-container{
+  
+   display: inline-block;
+  width : 100%;
+  border : 1px solid rgba(220 , 220 , 220 , 0.3);
+//border-radius: 5px;
+  margin : 4px auto;
+border-top : none;
+  border-width: 1px 0px;
+  position: fixed;
+  //bottom: 93%;
+  z-index: 1;
+  background-color : #10BBB3;
+  top : -4px;
+  padding-bottom: 12px;
+}
+
+}
+a.non-logged-header-divs {
+  text-decoration: none;
+  
+}
+#non-logged-header-container .fa{
+  color : rgba(0 ,0 , 0 , 0.5);
+}
+
+.fa-bullhorn , .fa-user-circle , .fa-gear{
+  margin-right : 12px;
+}
+.fa-user-circle{
+  //color : white;
+}
+.non-logged-header-divs:hover {
+  
+  border-bottom : 1px solid #fff;
+}
+
+#first-off-header-div{
+  margin-left : 20px;
+}
+
+#user-link-header {
+
+display: none;
+  //border : 1px solid gray;
+  position: fixed;
+ float: right;
+  top : 5px;
+  height: 40px;
+  width : 80px;
+  margin-right : 35px;
+   background-image : url(/Web_Data/img/llogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+#user-link-header:hover {
+  border : none;
+}
+    a.block-elements{
+      border : none;
+    }
+  .block-elements {
+   display: block;
+   text-decoration: none;
+  }
+    .block-elements:hover{
+      border : none;
+    }
+  .non-blocks {
+    display: none;
+  }
+
+  }

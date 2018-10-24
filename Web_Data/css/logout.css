@@ -1,0 +1,203 @@
+
+
+ body {
+        background-color: rgb(245, 248, 250);    
+
+    }
+
+
+#logout-div{
+  width : 700px;
+  margin : 30px auto;
+  height : 250px;
+  border: 1px solid rgba(0,0,0,0.025);
+  border-radius : 2px;
+  background-color : #fff;
+  opacity: .79;
+  display: none;
+  margin-top : 100px;
+}
+#logout-text{
+  display : block;
+  font-size : 28px;
+  border : 0px solid grey;
+  margin-top : 30px;
+  text-rendering: optimizeLegibility;
+  color: #14171a;
+  font-weight : bolder;
+  font-family: "Segoe UI",Arial,sans-serif;
+  text-align: center;
+}
+
+
+#logout-button-container{
+  
+  margin-top : 40px;
+  border : 0px solid grey;
+  text-align:  center;
+  margin-bottom : 30px;
+}
+.logut-buttons{
+background-color: #fff;
+border: 1px solid #66757f;
+color: #66757f;
+  cursor: pointer;
+  display: inline-block;
+  //box-shadow: 0 0 0 2px #fff,0 0 0 4px #ccd6dd;
+  box-shadow: none;
+  color: #66757f;
+  border : 0px solid lightgrey;
+  border-radius: 12px;
+  height : 35px;
+  width : 80px;
+  white-space: nowrap;
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#logout-ok{
+  
+  background-color: #48AAE6;
+border-color: transparent;
+ border: 1px solid #1da1f2; 
+color : #fff;
+  right : -10px;
+}
+
+#logout-cancel{
+  background-color: #fff;
+border: 1px solid #66757f;
+color: #66757f;
+}
+.logut-buttons:focus{
+  
+  
+  box-shadow: 0 0 0 2px #fff,0 0 0 4px #ccd6dd;
+}
+#logout-cancel:hover{
+  background-color : rgba(210 , 210 , 210 , 0.1);
+}
+#logout-ok:hover{
+  background : rgba(0 , 0 , 255 , 0.6) ;
+ border : none;
+  // border-color: rgba(0 , 0 , 255 , 0.6) ;
+}
+
+#sign-in{
+border:0px solid grey;
+  display : block;
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 15px;
+line-height: 20px;
+}
+@media only screen and (max-width: 608px) {
+  
+ 
+
+ body {
+        background-color: rgb(245, 248, 250);    
+
+    }
+
+
+#logout-div{
+  width :99%;
+  margin : 30px auto;
+  height : 250px;
+  border: 1px solid rgba(0,0,0,0.025);
+  border-radius : 2px;
+  background-color : #fff;
+  opacity: .79;
+  display: none;
+  margin-top : 100px;
+  //margin-bottom: 100px;
+  }
+#logout-text{
+  display : block;
+  font-size : 28px;
+  border : 0px solid grey;
+  margin-top : 30px;
+  text-rendering: optimizeLegibility;
+  color: #14171a;
+  font-weight : bolder;
+  font-family: "Segoe UI",Arial,sans-serif;
+  text-align: center;
+}
+
+
+#logout-button-container{
+  
+  margin-top : 40px;
+  border : 0px solid grey;
+  text-align:  center;
+  margin-bottom : 30px;
+}
+.logut-buttons{
+background-color: #fff;
+border: 1px solid #66757f;
+color: #66757f;
+  cursor: pointer;
+  display: inline-block;
+  //box-shadow: 0 0 0 2px #fff,0 0 0 4px #ccd6dd;
+  box-shadow: none;
+  color: #66757f;
+  border : 0px solid lightgrey;
+  border-radius: 12px;
+  height : 35px;
+  width : 80px;
+  white-space: nowrap;
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#logout-ok{
+  
+  background-color: #48AAE6;
+border-color: transparent;
+ border: 1px solid #1da1f2; 
+color : #fff;
+  right : -10px;
+}
+
+#logout-cancel{
+  background-color: #fff;
+border: 1px solid #66757f;
+color: #66757f;
+}
+.logut-buttons:focus{
+  
+  
+  box-shadow: 0 0 0 2px #fff,0 0 0 4px #ccd6dd;
+}
+#logout-cancel:hover{
+  background-color : rgba(210 , 210 , 210 , 0.1);
+}
+#logout-ok:hover{
+  background : rgba(0 , 0 , 255 , 0.6) ;
+ border : none;
+  // border-color: rgba(0 , 0 , 255 , 0.6) ;
+}
+
+#sign-in{
+border:0px solid grey;
+  display : block;
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 15px;
+line-height: 20px;
+} 
+  
+     
+  #site-footer{
+position : absolute;
+  bottom : 0;
+  right : 0;
+  left : 0;
+   
+  }
+}

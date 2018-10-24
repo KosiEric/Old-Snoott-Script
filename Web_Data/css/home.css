@@ -1,0 +1,500 @@
+ #filter-container {
+
+ margin-bottom: 20px; 
+  display: none;
+
+
+}
+
+#no-data {
+  display: none;
+  text-align: center;
+  color : #10bbb3;
+  font-family: Cairo;
+  font-size: 17px;
+  font-weight: bold;
+}
+#search-filter , #search-region{
+  background-image : url(/Web_Data/img/location.png) , url(/Web_Data/img/drop-down.png) ;
+  background-position : right center;
+  background-size : auto 10px;
+  background-repeat: no-repeat;
+background-position-x: 5% , 90%;
+background-position-y: 11px , ;
+  padding-left : 42px;
+  cursor: pointer;
+}
+
+#select-statement {
+  
+  color : grey;
+  font-weight: bold;
+  text-transform: capitalize;
+  
+}
+
+body {
+background-color: rgb(245, 248, 250);    
+}
+
+#ads-home-text,#related-ads-span {
+
+font-size: 20px;
+  font-family: Cairo;
+  opacity: .6;
+ font-weight: bold;  
+   margin-bottom: 30px;
+    
+}
+
+#related-ads-span {
+  display: block;
+  margin: 12px 0px;;
+}
+
+#ads-main{
+ //border : 1px solid grey;
+  margin-bottom: 30px;
+  
+}
+
+
+#ads-container ,#favorites-ads-container{
+  padding-top : 20px;
+ //border : 1px solid grey;
+ // text-align: center;
+  
+ // width : 100%;
+  padding-left : 100px;
+ }
+
+.image-ad-first{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width : 100%;
+  height : 180px;
+   background-color: #fff;
+}
+
+.ad-user-links {
+
+display: inline-table;
+  width : 220px;
+ margin-right: 20px;
+  height : 280px;
+
+  background-color : #fff;
+   text-decoration: none;
+  font-size: 14px;
+  color : blue;
+  font-weight: normal;
+  border-radius: 1px;
+  font-family: Cairo;
+  //font-weight: bold;
+   text-align: center;
+   color : #fff;
+   margin-bottom: 20px;
+   cursor: pointer;
+   font-family: Cairo;
+}
+.ad-user-links:hover {
+ position: relative;
+  top : 5px;
+}
+.ad-title{
+  display: block;
+  color: #464b4f;
+  margin-top : 12px;
+  font-family: "Arial",Helvetica,sans-serif;
+   font-size : 12px;
+ // border : 1px solid grey;
+  height : 20px;
+  
+ line-height: 15px;
+  font-size: 16px;
+text-align: left;
+font-weight: 700;
+  margin-left : 12px;
+font-family: Cairo;
+}
+
+.ad-universiity {
+  color : #8080ff;
+  margin-top : 1px;
+  display: block;
+  height : 25px;
+  text-align: left;
+  margin-left : 12px;
+  font-weight: 500;
+
+   font-family: Cairo;
+  position: relative;
+  top : 10px;
+  line-height: 16px;
+
+}
+.ad-price {
+  color: #70b93f;
+  font-size: 16px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
+font-weight: 700;
+  margin-top :10px;
+  display: block;
+  //border : 1px solid grey;
+  text-align: left;
+  margin-left : 12px;
+  position : relative;
+  top : 5px;
+}
+
+#first-loader-span{
+  display: block;
+  //margin-left : auto;
+  //margin-right : auto;
+  margin-top : 80px;
+  text-align: center;
+  //border : 1px solid green;
+  position: relative;
+  
+  
+}
+
+#post-span {
+display: block;
+  text-align: center;
+}
+
+#empty-response {
+  display: none;
+  text-align: center;
+}
+
+.related-ads-link {
+  border : 1px solid lightgray;
+  width : 100%;
+}
+.related-image-first {
+  background-color: #f5f5f5;
+ 
+}
+
+@media only screen and (max-width: 449px) {
+
+  #ads-main{
+// border : 1px solid red;
+  
+  margin-bottom 100px;
+}
+#ads-container ,#favorites-ads-container{
+  padding-top : 20px;
+ border : 0px solid grey;
+ // text-align: center;
+  
+  margin-left : 0px;
+  margin-right: 0px;;
+  padding-left : 20px;
+  padding-right : 0px;
+}
+
+  
+.image-ad-first{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width : 100%;
+  height : 180px;
+   background-color: #fff;
+}
+.ad-user-links {
+
+
+  width : 94%;
+  height : 300px;
+
+  background-color : #fff;
+   text-decoration: none;
+  font-size: 14px;
+  color : blue;
+  font-weight: normal;
+  border-radius: 1px;
+  font-family: Cairo;
+  //font-weight: bold;
+  text-align: center;
+   color : #fff;
+   margin-bottom: 20px;
+   cursor: pointer;
+   font-family: Cairo;
+  display: block;
+}
+.ad-user-links:hover {
+ position: relative;
+  top : 5px;
+}
+.ad-title{
+  display: block;
+  color: #464b4f;
+  margin-top : 12px;
+  font-family: "Arial",Helvetica,sans-serif;
+   font-size : 12px;
+ // border : 1px solid grey;
+  height : 20px;
+  
+ line-height: 15px;
+  font-size: 16px;
+text-align: left;
+font-weight: 700;
+  margin-left : 12px;
+font-family: Cairo;
+}
+
+.ad-universiity {
+  color : #8080ff;
+  margin-top : 1px;
+  display: block;
+  height : 25px;
+  text-align: left;
+  margin-left : 12px;
+  font-weight: 500;
+
+   font-family: Cairo;
+  position: relative;
+  top : 20px;
+  line-height: 16px;
+}
+.ad-price {
+  color: #70b93f;
+  font-size: 16px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
+font-weight: 700;
+  margin-top :10px;
+  display: block;
+  //border : 1px solid grey;
+  text-align: left;
+  margin-left : 12px;
+  position : relative;
+  top : 32px;
+}
+#ads-home-text,#related-ads-span {
+
+font-size: 20px;
+  font-family: Cairo;
+  opacity: .6;
+ font-weight: bold;  
+   margin-bottom: 30px;
+  
+    
+}
+#related-ads-span {
+  font-size: 20px;
+  font-family: Cairo;
+  opacity: .6;
+ font-weight: bold;  
+   margin-bottom: 30px;
+
+}
+  #filter-container {
+
+ margin-bottom: 20px; 
+  display: none;
+  width : 100%;
+    border : 0px solid grey;
+
+}
+  
+  #search-filter {
+  background-image : url(/Web_Data/img/location.png) , url(/Web_Data/img/drop-down.png) ;
+  background-position : right center;
+  background-size : auto 10px;
+  background-repeat: no-repeat;
+background-position-x: 5% , 90%;
+background-position-y: 17px , ;
+  padding-left : 2px;
+  cursor: pointer;
+    width : 50%;
+    padding-left: 17px;
+}
+  
+#no-data {
+  display: block;
+  text-align: center;
+  color : #10bbb3;
+  font-family: Cairo;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 100px;
+  z-index: 600;
+}
+  #post-span {
+display: block;
+  text-align: center;
+
+  }
+  
+}
+@media only screen and (max-width:649px) {
+#search-region{
+  background-image : url(/Web_Data/img/location.png) , url(/Web_Data/img/drop-down.png) ;
+  background-position : right center;
+  background-size : auto 10px;
+  background-repeat: no-repeat;
+background-position-x: 5% , 90%;
+background-position-y: 11px , ;
+  padding-left : 12px;
+  cursor: pointer;
+  width : 25%;
+  height : 34px;
+}
+
+  @media only screen and (max-width:290px)  {
+    
+    #search-region {
+      width : 90%;
+      padding-left : 20px;
+      display: block;
+      margin-bottom : 5px;
+      
+    }
+    
+    #search-text {
+      width :80%;
+    }
+    
+    #search-drop-div {
+      top : -80px;
+    }
+    
+    #search-drop-div {
+   z-index: 1022;
+  width : 200px;
+  position: relative;
+  top : -40px;
+  //bottom : 30px;
+  border : 1px solid red;
+   //height : 50px;
+  background-color : #fff;
+  //border-radius:  5px;
+  display: block;
+  //background-color: lightgoldenrodyellow;
+  padding :  6px 4px;
+  color : #10bbb3;
+  font-size: 14px;
+  border : 1px solid lightgrey;
+  left : 19%;
+}
+  
+  #search-button {
+    position: relative;
+    top : 0px;
+    left : -5px;
+  }
+  #search-form {
+    padding-bottom: 60px;
+  }
+  }
+ @media (max-width:584px) and (min-width:450px) {
+    
+    #ads-main{
+ //border : 1px solid grey;
+  margin-bottom: 30px;
+  
+}
+
+
+#ads-container ,#favorites-ads-container{
+  padding-top : 20px;
+ //border : 1px solid grey;
+ // text-align: center;
+  
+ // width : 100%;
+  padding-left : 30px;
+ }
+
+.image-ad-first{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width : 100%;
+  height : 180px;
+   background-color: #fff;
+}
+
+.ad-user-links {
+
+display: inline-block;
+  width : 180px;
+ margin-right: 20px;
+  height : 280px;
+
+  background-color : #fff;
+   text-decoration: none;
+  font-size: 14px;
+  color : blue;
+  font-weight: normal;
+  border-radius: 1px;
+  font-family: Cairo;
+  //font-weight: bold;
+   text-align: center;
+   color : #fff;
+   margin-bottom: 20px;
+   cursor: pointer;
+   font-family: Cairo;
+}
+.ad-user-links:hover {
+ position: relative;
+  top : 5px;
+}
+.ad-title{
+  display: block;
+  color: #464b4f;
+  margin-top : 12px;
+  font-family: "Arial",Helvetica,sans-serif;
+   font-size : 12px;
+ // border : 1px solid grey;
+  height : 20px;
+  
+ line-height: 15px;
+  font-size: 16px;
+text-align: left;
+font-weight: 700;
+  margin-left : 12px;
+font-family: Cairo;
+}
+
+.ad-universiity {
+  color : skyblue;
+  margin-top : 1px;
+  display: block;
+  height : 25px;
+  text-align: left;
+  margin-left : 12px;
+  font-weight: 500;
+
+   font-family: Cairo;
+  position: relative;
+  top : 10px;
+  line-height: 16px;
+
+}
+.ad-price {
+  color: #70b93f;
+  font-size: 16px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
+font-weight: 700;
+  margin-top :10px;
+  display: block;
+  //border : 1px solid grey;
+  text-align: left;
+  margin-left : 12px;
+  position : relative;
+  top : 5px;
+}
+
+  }
+}

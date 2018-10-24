@@ -1,0 +1,466 @@
+body {
+background-color: rgb(245, 248, 250);
+  
+}
+
+#delete-response{
+  text-align: center;
+}
+#delete-response .fa-circle-o-notch ,#image-response .fa-circle-o-notch{
+  border : 0px solid lightgrey;
+  
+}
+
+.fa-circle-o-notch{
+  //border : 1px solid lightgrey;
+  
+}
+#delete-response .fa-spin   {
+  margin-left : auto;
+  margin-right : auto;
+  display: block;
+  width : 4px;
+}
+
+#image-response .fa-spin{
+ display: block;
+  width : 4px; 
+  margin-left : 45px;
+}
+
+#main-settings-toggle{
+   background-color : rgba(210 , 210 , 210 , 0.4); 
+margin-top : 100px;
+  
+  height : 60px;
+  border : 1px solid rgba(210 , 210 , 210 , 0.4);
+ margin : 100px auto 30px auto;
+    
+}
+
+.toggles{
+  
+  cursor: pointer;
+ display : inline-block;
+  border : none;
+  text-align: center;
+  height : inherit;
+  border : 0px;
+  position: relative;
+//  background-color : inherit;
+  font-size : 15px;
+  font-family : Arial;
+  color : rgba(0,0,0,0.5); 
+}
+
+#account-toggle{
+  background-color : inherit;
+  margin-right : -10px;
+  width : 60%;
+}
+.toggles:hover {
+  color : rgba(0,0,255,0.5);
+  font-weight:;
+ // background-color : rgb(56,151,240 , 0.4);
+border : 0px;
+  
+}
+#profile-toggle{
+  right : -6px;
+   width :40%;
+  background-color : #fff;
+}
+
+#settings-drop-down-container{
+  width : 600px;
+  position: relative;
+  top : -30px;
+  
+  border : 1px solid rgba(210 , 210 , 210 , 0.4);
+  border-top : none;
+  margin : 0px auto;
+  background-color : #fff;
+}
+
+.settings-dropdowns{
+  background-image: url("/Web_Data/img/drop-down.png");
+    background-size : 22px auto;
+    background-repeat: no-repeat;
+    background-position: right center;
+  
+  width : inherit;
+  
+  border : 1px solid rgba(210 , 210 , 210 , 0.2);
+  border-left : 0px;
+  border-right : 0px;
+  border-top : none;
+  height : 70px;
+  text-align : left;
+  line-height: 400%;
+  color : #0098d0;
+  cursor : pointer;
+    font-family: arial;
+  text-indent: 25px;
+  background-color : #fff;
+}
+.reg-contacts {
+margin-left: 3%;
+
+width: 80%;
+background-color: inherit;
+border-radius: 4px;
+font-weight: bolder;
+
+}
+
+#phone:focus {
+border : none;
+outline : none;
+}
+.country-code {
+
+    display: inline-block;
+    margin-top : 5px;
+    color : green;
+    font-weight: bolder;
+}
+#first-country-code-wrapper {
+
+    padding-top: 2px;
+    background-image: url("/Web_Data/img/fone.png");
+    background-position: right;
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+}
+#account-settings{
+  border-top : 0px;
+}
+#main-settings-toggle , #settings-drop-down-container{
+   width : 800px;
+}
+.dropdown-texts:hover{
+  text-decoration: #168eca underline;
+}
+.dropdown-texts{
+
+}
+.hidden-forms{
+ padding-top : 10px;
+  padding-bottom : 10px;
+  width : inherit;
+ 
+  background-color :  #f0f0f0;
+ display: none;
+ 
+}
+.inputs {
+  
+  display : block;
+  color : rgba(0 , 0 , 0 , 0.7);
+  height : 23px;
+  border-radius : 6px;
+  font-size: 14px;
+  padding: 9px 8px 7px;
+  background-color: #fff;
+border: 1px solid #e6e6e6;
+
+outline: none;
+  width : 300px;
+  margin : 0px  0px 7px 22px; 
+}
+#username{
+ height : 20px;
+  background-image : url('/Web_Data/img/user.png');
+  background-repeat: no-repeat;
+  background-position: right ;
+  background-size: 20px auto;
+  
+}
+
+#email {
+  height : 20px;
+   background-image: url("/Web_Data/img/email.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto 20px;
+}
+.server-response{
+  display: block;
+  color : rgba(0 , 0 , 0 , 0.7);
+  margin-left : 25px;
+  font-family : arial;
+ 
+}
+#account-save-button:hover {
+  
+  background-color : lightblue;
+  border : 1px solid lightblue;
+}
+#account-save-button {
+    
+   
+  cursor: pointer;
+  border-radius: 6px;
+border-style: solid;
+border-width: 1px;
+font-size: 14px;
+font-weight: 600;
+line-height: 26px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+  margin-top : 15px;
+  margin-left : 25px;
+  color : #fff;
+width : 313px;
+  border:1px solid  #3897f0;
+  background-color : #3897f0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32px 32px;
+  height: 32px;
+  
+
+}
+
+
+#phone{
+ 
+  border: 0px;
+  font-weight : 300;
+  color : rgba(0 , 0 , 0 , 0.7);
+}
+
+#edit-account-details{
+  
+//  height : 210px;
+}
+#change-password-form{
+ // height : 210px;
+}
+
+#change-password-button{
+   cursor: pointer;
+  border-radius: 6px;
+border-style: solid;
+border-width: 1px;
+font-size: 14px;
+font-weight: 600;
+line-height: 26px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+  margin-top : 15px;
+  margin-left : 25px;
+  color : #fff;
+width : 313px;
+  border:1px solid  #3897f0;
+  background-color : #3897f0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32px 32px;
+  height: 32px;
+  
+}
+
+
+#change-password-button:hover {
+  background-color : lightblue;
+  border : 1px solid lightblue;
+}
+
+#delete-account-button{
+  background-color: #98351a;
+border-color: #7F1C01;
+  border : 1px solid #7F1C01;
+  height : 30px;
+  width : 130px;
+  border-radius: 5px;
+  //position : relative;
+  font-weight: normal;
+  display : block;
+  margin : 20px auto;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+cursor: pointer;
+  outline: none;
+  text-align : center;
+  color : #fff;
+  font-size : 15px;
+}
+
+#delete-account-button:hover {
+  background-color: #7F1C01;
+  font-weight : 400;
+  
+}
+            
+            input[type="file"] {
+                
+                display: none;
+            }
+            
+            .profile-label {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+              position : relative;
+              margin-left : 25px;
+                border:  1px solid lightgrey;
+                cursor : pointer;
+                background-image : url('/Web_Data/img/camera.png');
+                background-size : 32px auto;
+                background-repeat: no-repeat;
+                background-position:  center;
+               border-radius: 50%;
+             
+                
+            }
+#upload-image-button{
+   background-color: #98351a;
+border-color: #7F1C01;
+  border : 1px solid #7F1C01;
+  height : 30px;
+  width : 100px;
+  border-radius: 5px;
+  //position : relative;
+  font-weight: normal;
+  display : block;
+ margin : 4px 4px;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+cursor: pointer;
+  outline: none;
+  text-align : center;
+  color : #fff;
+  font-size : 15px;
+}
+
+#upload-image-button:hover {
+  background-color: #7F1C01;
+  font-weight : 400;
+  
+}
+
+#profile-settings-form{
+  display : block;
+  
+}
+.profile-inputs{
+  display : inline-block;
+  
+  
+}
+#fullname{
+  margin-left : 25px;
+  margin-right : 12px;
+}
+
+select {
+   -webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none;       /* remove default arrow */
+   background-image: url(...);   /* add custom arrow */
+}
+
+select::-ms-expand { 
+    display: none; /* hide the default arrow in ie10 and ie11 */
+}
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select {
+        background-image:none\9;
+        padding: 5px\9;
+    } 
+}
+#universities{
+  display : block;
+  margin-top : 5px;
+  display :none;
+}
+#profile-region{
+  
+  
+  
+  background-image : url("/Web_Data/img/location.png");
+  background-position : right center;
+  background-size : auto 10px;
+  background-repeat: no-repeat;
+background-position-x: 97%;
+  border : 1px solid lightgrey;
+  width : 140px;
+  border-radius : 3px;
+  padding-left : 12px;
+  cursor: pointer;
+  
+  
+
+}
+#profile-region
+{
+  height : 33px;
+}
+.profile-inputs{
+  display: inline-block;
+  border : 1px solid lightgrey;
+  height : 30px;
+}
+#universities{
+ color : #414141;
+  width : calc;
+   height  : 30px;
+padding-left : 15px;
+  padding-right : 25px;
+  border-radius: 3px;
+  border : 1px solid lightgrey;
+  margin-left : 25px;
+  
+  background-image : url("/Web_Data/img/drop-down.png");
+  background-position : right center;
+  background-size : auto 14px;
+  background-repeat: no-repeat;
+background-position-x: 97%;
+  cursor: pointer;
+}
+#save-profile-button:hover{
+  background-color : #1a6e99;  
+  }
+#save-profile-button{
+padding: 0px;
+text-align: center;
+font-size: 14px;
+font-weight: normal;
+height: 30px;
+border-radius: 5px;
+    border: 1px solid #1a6e99;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+background-color: #1b76a5;
+  color : #fff;
+  width : 100px;
+    cursor : pointer;
+  margin-left : 25px;
+ margin-top : 10px; 
+}
+
+#fullname {
+  
+  padding-left : 12px;
+}
+
+#profile-settings{
+  display: none;
+  width : 800px;
+  position: relative;
+  top : -30px;
+  
+  border : 1px solid rgba(210 , 210 , 210 , 0.4);
+  border-top : none;
+  margin : 0px auto;
+}
+
+#profile-settings-form{
+  display: none;
+}
+#image-response{
+  border : 0px solid grey;
+  margin-left : 5px;
+  margin-bottom : 10px;
+}

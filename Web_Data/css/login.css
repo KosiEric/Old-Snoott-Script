@@ -1,0 +1,411 @@
+body {
+    
+    margin: none;
+    padding: none;
+    background : #fff;
+}
+
+#remember-me , #forgot-password {
+  
+  top : 0px;
+  color : rgba(0, 0 , 0 , 0.5);
+    margin-left: 54px;
+}
+
+#forgot-password{
+  
+}
+.country-code {
+
+    display: inline-block;
+    margin-top : 5px;
+    color : green;
+    font-weight: bolder;
+}
+#remember-me{
+margin-top : 6px;
+  display: block;
+}
+#first-country-code-wrapper {
+
+    padding-top: 2px;
+    background-image: url("/Web_Data/img/fone.png");
+    background-position: right;
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+}
+#new-signup{
+ // background-color: rgba(240, 240, 240, 0.4);
+  width : 400px;
+  display: block;
+  margin-top : 30px;
+  height : 50px;
+  text-align: center;
+  padding-top : 40px;
+  margin-left : auto;
+  margin-right : auto;
+//border: 1px solid #e6e6e6;
+border-radius: 5px;
+//  color: #262626;
+  color: rgba(0 , 0 , 0 , 0.7);
+font-size: 16px;
+ // background-color :rgba(255 , 255 , 255 , .5);
+position: relative;
+  bottom : 5em;
+  
+}
+#signup-link{
+  
+  color : #10BBB3;;
+  cursor: pointer;
+}
+#login  {
+  //background-color :rgba(255 , 255 , 255 , .5);
+  width : 400px;
+  display: block;
+  margin: 80px auto;
+  margin-top : 200px;
+  padding-top : 10px;
+ // padding-top : px;
+  //background-color: #f0f0f0;
+//border: 1px solid #e6e6e6;
+border-radius: 5px;
+height: 320px;
+  
+  //background-color: rgba(240, 240, 240, 0.2);
+border-radius: 5px;
+
+opacity: 1;
+
+}
+
+input[type="text"]{
+    
+    outline:  0px;
+    box-shadow: none;
+}
+
+.inputs {
+  margin-left : 15%;
+  margin-top : 7px;
+  display: block;
+  padding : 5px;
+  width : 70%;
+  font-weight : 300;
+  color : #999;
+  height : 30px;
+  border-radius : 4px;
+  font-size: 14px;
+  padding: 9px 8px 7px;
+  background-color: #fff;
+border: 1px solid #e6e6e6;
+border-radius: 1px;
+outline: none;
+
+}
+
+#key {
+    
+    display: none;
+  background-image : url('/Web_Data/img/key.png');
+  background-repeat: no-repeat;
+  background-position: right ;
+  background-size: 22px 22px;
+}
+#username{
+  background-image : url('/Web_Data/img/user.png');
+  background-repeat: no-repeat;
+  background-position: right ;
+  background-size: 22px 22px;
+  
+  margin-top : 12px;
+}
+#password{
+  margin-top : 12px;
+  background-image : url('/Web_Data/img/password.png');
+  background-repeat: no-repeat;
+  background-position: right ;
+  background-size: auto 16px;
+  
+}
+
+* {
+  
+  outline: none;
+}
+#login-button{
+  cursor: pointer;
+  border-radius: 3px;
+border-style: solid;
+border-width: 1px;
+font-size: 14px;
+font-weight: 600;
+line-height: 26px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+  margin-top : 25px;
+width: 74.4%;
+  margin-left : 15%;
+  color : #fff;
+font-family: Cairo;
+  border:1px solid  #10BBB3;;
+ background-color : #10BBB3;
+  //background-color : #3897f0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32px 32px;
+  height: 32px;
+  
+}
+#forgot-password{
+  border : 0px solid grey;
+   display: block;
+  width : 150px;
+  text-align: center;
+  margin : 2px auto;
+  cursor: pointer;
+}
+
+#forgot-password:hover {
+  color : rgba(255 , 0 , 0 , 0.5);
+}
+.inputs:focus {
+border : 1px solid rgba(15,186,178,.1);
+}
+
+#login-button:hover {
+  
+  //background-color : lightblue;
+  //border : 1px solid lightblue;
+  opacity : 0.6;
+}
+
+#login-text{
+border:0px solid lightgrey;
+  text-align : center;
+  color: #10BBB3;
+  font-size : 22px;
+  width: 70%;
+  margin-left : 17%;
+  display: block;
+  margin-top : 3px;
+  margin-bottom: 1px;
+ font-family : Neue Helvetica;
+ //background-image: url("/Web_Data/img/newfavicon.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+background-size: 15px auto;
+font-family: "Segoe UI",Arial,sans-serif;
+  background-position-y: 10px;
+  display: none;
+}
+
+@media only screen and (max-width: 400px) {
+body {
+    
+    margin: none;
+    padding: none;
+    background : #fff;
+}
+
+#remember-me , #forgot-password {
+  
+  top : 0px;
+  color : rgba(0, 0 , 0 , 0.5);
+    margin-left: 10%;
+}
+
+#forgot-password{
+  
+}
+.country-code {
+
+    display: inline-block;
+    margin-top : 5px;
+    color : green;
+    font-weight: bolder;
+}
+#remember-me{
+margin-top : 6px;
+  display: block;
+}
+#first-country-code-wrapper {
+
+    padding-top: 2px;
+    background-image: url("/Web_Data/img/fone.png");
+    background-position: right;
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+}
+#new-signup{
+ // background-color: rgba(240, 240, 240, 0.4);
+  width : 80%;
+  display: block;
+  margin-top : 30px;
+  height : 50px;
+  text-align: center;
+  padding-top : 40px;
+  margin-left : auto;
+  margin-right : auto;
+//border: 1px solid #e6e6e6;
+border-radius: 5px;
+//  color: #262626;
+  color: rgba(0 , 0 , 0 , 0.7);
+font-size: 16px;
+ // background-color :rgba(255 , 255 , 255 , .5);
+position: relative;
+  bottom : 6em;
+border : px solid grey;  
+}
+#signup-link{
+  
+  color : #10BBB3;;
+  cursor: pointer;
+}
+#login  {
+  //background-color :rgba(255 , 255 , 255 , .5);
+  width : 100%;
+  display: block;
+  margin: 80px auto;
+  margin-top : 100px;
+  padding-top : 10px;
+ // padding-top : px;
+  //background-color: #f0f0f0;
+//border: 1px solid #e6e6e6;
+border-radius: 5px;
+height: 320px;
+  
+  //background-color: rgba(240, 240, 240, 0.2);
+border-radius: 5px;
+
+opacity: 1;
+  margin-bottom: 20px;
+
+}
+
+input[type="text"]{
+    
+    outline:  0px;
+    box-shadow: none;
+}
+
+.inputs {
+  margin-left : auto;
+  margin-right : auto;
+  margin-top : 7px;
+  display: block;
+  padding : 6px;
+  width : 70%;
+  font-weight : 300;
+  color : #999;
+  height : 30px;
+  border-radius : 4px;
+  font-size: 14px;
+  
+  background-color: #fff;
+border: 1px solid #e6e6e6;
+border-radius: 1px;
+outline: none;
+
+}
+
+#key {
+    
+    display: none;
+  background-image : url('/Web_Data/img/key.png');
+  background-repeat: no-repeat;
+  background-position: right ;
+  background-size: 22px 22px;
+}
+#username{
+  background-image : url('/Web_Data/img/user.png');
+  background-repeat: no-repeat;
+  background-position: right ;
+  background-size: 22px 22px;
+  
+  margin-top : 12px;
+}
+#password{
+  margin-top : 12px;
+  background-image : url('/Web_Data/img/password.png');
+  background-repeat: no-repeat;
+  background-position: right ;
+  background-size: auto 16px;
+  
+}
+
+* {
+  
+  outline: none;
+}
+#login-button{
+  cursor: pointer;
+  border-radius: 3px;
+border-style: solid;
+border-width: 1px;
+font-size: 14px;
+font-weight: 600;
+line-height: 26px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+  margin-top : 25px;
+width: 76.2%;
+  margin-left : auto;
+  margin-right : auto;
+  color : #fff;
+font-family: Cairo;
+  border:1px solid  #10BBB3;;
+ background-color : #10BBB3;
+  //background-color : #3897f0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32px 32px;
+  height: 35px;
+  display: block;
+}
+#forgot-password{
+  border : 0px solid grey;
+   display: block;
+  width : 150px;
+  text-align: center;
+  margin : 2px auto;
+  cursor: pointer;
+}
+
+#forgot-password:hover {
+  color : rgba(255 , 0 , 0 , 0.5);
+}
+.inputs:focus {
+border : 1px solid rgba(15,186,178,.1);
+}
+
+#login-button:hover {
+  
+  //background-color : lightblue;
+  //border : 1px solid lightblue;
+  opacity : 0.6;
+}
+
+#login-text{
+border:0px solid lightgrey;
+  text-align : center;
+  color: #10BBB3;
+  font-size : 22px;
+  width: 70%;
+  margin-left : 17%;
+  display: block;
+  margin-top : 3px;
+  margin-bottom: 1px;
+ font-family : Neue Helvetica;
+ //background-image: url("/Web_Data/img/newfavicon.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+background-size: 15px auto;
+font-family: "Segoe UI",Arial,sans-serif;
+  background-position-y: 10px;
+  display: none;
+}
+  
+}

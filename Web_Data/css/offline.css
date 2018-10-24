@@ -1,0 +1,15 @@
+#offline-checker{
+  position : absolute;
+  width : 300px;
+  height : 40px;
+  border : 1px solid rgba(220 , 220 , 220 , 0.3);
+  border-radius : 12px;
+  right : 12px;
+  bottom : 5px;
+  background-color : rgba(255, 134 , 200 , 0.1) ;
+  text-align : center;
+  line-height: 40px;
+  font-family: arial;
+  color : rgba(0 , 0 , 0 , 0.4);
+  display: none;
+}

@@ -1,0 +1,374 @@
+body {
+    
+    margin : 0px;
+   background-color: #f6f6f6;   
+  padding: 0px;
+}
+#search-form-field {
+  border : none;
+}
+#header-display-image {
+  opacity: .8;
+  width : 69%;
+  height:  155px;
+  display: block;
+  margin-left : auto;
+ margin-right: auto;
+ background: url(/Web_Data/img/bar.png) ; 
+  background-repeat: no-repeat ;
+  background-size: contain ;
+ background-position: center;
+  //background-position-x: 500px;
+  border : 1px dashed rgb(220,217,205 , .38);
+  
+  background-color : rgb(220,217,205 , .1);
+  border-bottom: none;
+  border-radius : none;
+  
+//  background-color:  lightblue;
+display: none;
+}
+
+
+#universities{
+ color : #414141;
+  width : calc;
+   height  : 30px;
+padding-left : 15px;
+  padding-right : 25px;
+  border-radius: 3px;
+  border : 1px solid lightgrey;
+  margin-left : 5px;
+  
+  background-image : url("/Web_Data/img/drop-down.png");
+  background-position : right center;
+  background-size : auto 14px;
+  background-repeat: no-repeat;
+background-position-x: 97%;
+  
+}
+#big-search-container{
+  padding-bottom: 20px;
+  background-color : #fff;
+ // height : 400px;
+  padding-top : 20px;
+  margin-top : 20px;
+background-image : url("/Web_Data/img/brazil_girl.jpg");
+ 
+ background-size : cover;
+  //background-position: center;
+  background-repeat: no-repeat;
+ // background-position-x: -200%;
+}
+
+#search-form {
+  opacity: 0.7;
+  margin : 20px auto;
+  width : 66.5%;
+  height : 60px;
+  position: relative;
+  border: 1px solid #1582b8;
+  padding : 15px 3px 15px 25px;
+  background-color : #168eca;
+  margin-top : 50px;
+  //border-radius: 7px;
+}
+* {
+  
+  outline : 0px;
+}
+
+
+.search-boxes{
+  color : #414141;
+  width : 30%;
+   height  : 30px;
+padding-left : 25px;
+  border-radius: 3px;
+  border : 1px solid lightgrey;
+  margin-left : 5px;
+   
+}
+#search-button:hover{
+  background-color : #1a6e99;  
+  margin-left : 10px;
+  font-weight : bolder;
+}
+#search-button{
+padding: 0px;
+text-align: center;
+font-size: 14px;
+font-weight: normal;
+height: 30px;
+border-radius: 5px;
+    border: 1px solid #1a6e99;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+background-color: #1b76a5;
+  color : #fff;
+  width : 40px;
+    cursor : pointer;
+  margin-left : 15px;
+
+
+    top : 4px;
+}
+
+#search-text{
+  
+  background-image : url("/Web_Data/img/search-icon.png");
+  background-position : left center;
+  background-size : 12px auto;
+  background-repeat: no-repeat;
+  background-position-x: 4px;
+  
+}
+
+#search-region{
+  
+  
+  
+  background-image : url("/Web_Data/img/location.png");
+  background-position : right center;
+  background-size : auto 14px;
+  background-repeat: no-repeat;
+background-position-x: 5%;
+  
+  
+
+}
+
+#header-categories{
+ 
+  width : 70%;
+  opacity : 0.68;
+  border : 0px solid lightgrey;
+  margin : 30px auto;
+   line-height: 50px;
+    background-image: url("/Web_Data/img/smoker.png");
+  background-repeat : no-repeat;
+  background-position : center;
+  background-size : auto auto;
+ // border-radius : 5px;
+  z-index : -2000;
+}
+
+.header-categories{
+  font-weight : 700;
+  font-size : 20px;
+  display : inline-table;
+  margin-left : 2%;
+  color : #168eca;
+  border : 0px solid grey;
+  color : #fff;
+  font-family: Cairo;
+}
+
+.fa-book , .fa-tv , .fa , .fa-desktop , .fa-shopping-bag , .fa-book {
+  
+  margin-right : 12px;
+}
+
+a.header-categories{
+  text-decoration: none;
+}
+
+a.header-categories:hover{
+text-decoration: underline;  
+  text-decoration-color: cornflowerblue;
+
+}
+.fa-home{
+  color : green;
+  
+}
+.fa-tv{
+  
+  color : brown;
+  
+}
+.fa-tablet{
+  color : yellow;
+}
+
+.fa-desktop{
+  
+  color : mediumpurple;
+}
+
+.fa-shopping-bag{
+  color : rosybrown;
+
+}
+.fa-book{
+  color : darkcyan;
+  
+  
+}
+.fa-bed{
+  color : green;
+}
+
+select {
+   -webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none;       /* remove default arrow */
+   background-image: url(...);   /* add custom arrow */
+}
+
+select::-ms-expand { 
+    display: none; /* hide the default arrow in ie10 and ie11 */
+}
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select {
+        background-image:none\9;
+        padding: 5px\9;
+    } 
+}
+#universities{
+  display : block;
+  margin-top : 5px;
+  display :none;
+}
+
+#search-drop-div {
+   z-index: 1022;
+  width : 200px;
+  position: relative;
+  top : 5px;
+  //bottom : 30px;
+  border : 0px solid red;
+   //height : 50px;
+  background-color : #fff;
+  //border-radius:  5px;
+  display: none;
+  //background-color: lightgoldenrodyellow;
+  padding :  6px 4px;
+  color : #000;
+  font-size: 14px;
+  border : 1px solid lightgrey;
+  left : 31.8%;
+  margin-top : 10px;
+  opacity: 1;
+ font-family: Cairo;
+}
+
+.ad-drop-links {
+  text-decoration: none;
+  display: block;
+  color : #10bbb3;
+ // font-weight: bold;
+  //margin-left : 2px;
+  font-size: 15px;
+  margin-top : 5px;
+// border-top : 1px solid grey;
+padding : 4px;
+font-weight : bold;
+}
+.ad-drop-links:hover {
+  color : tomato;
+}
+@media only screen and (max-width:648px) {
+  #header-categories{
+ 
+  width : 99.7%;
+  opacity : 1;
+  border : 0px solid lightgrey;
+  margin-top : -19px;
+   line-height: 50px;
+    background-image: unset;
+  background-repeat : no-repeat;
+  background-position : center;
+  background-size : auto auto;
+ // border-radius : 0px;
+    background-color : #fff;
+}
+  .ad-drop-links {
+  color : #10bbb3;  
+}
+  .ad-drop-links:hover {
+  color : tomato;
+}
+  #big-search-container{
+  padding-bottom: 0px;
+  background-color : #fff;
+ // height : 400px;
+  padding-top : 20px;
+  margin-top : 20px;
+background-image : url("/Web_Data/img/brazil_girl.jpg");
+ 
+ background-size : cover;
+  //background-position: right;
+  background-repeat: no-repeat;
+ // background-position-x: -200%;
+}
+  #search-form {
+    width : 99%;
+    padding-bottom: 24px;
+    padding-left: 0px;
+  }
+  
+  #search-drop-div {
+    top : -40px;
+    left : 29%;
+    width : 50%;
+    background-color : #fff;
+    
+    
+  }
+  
+  #home-span {
+    margin-left : 5px;
+  }
+  #search-button{
+    display: block;
+    position: relative;
+    margin-top : 10px;
+    width : 40px;
+    left : 0px;;
+}
+  .header-category-spans{
+    color : #10bbb3;
+  }
+  
+#search-text{
+  
+  background-image : url("/Web_Data/img/search-icon.png");
+  background-position : left center;
+  background-size : 12px auto;
+  background-repeat: no-repeat;
+  background-position-x: 4px;
+  width : 60%; 
+}
+  
+  #search-drop-div {
+  
+  }
+
+ @media only screen and (max-width:431px) {
+ 
+   .header-categories{
+  font-weight : 700;
+  font-size : 20px;
+  display : block;
+  margin-left : 4.9%;
+  color : #;
+  border : 0px solid grey;
+  color : #fff;
+  font-family: Cairo;
+}
+   #big-search-container{
+    background-size: contain;
+  }
+   .header-category-spans {
+     position: relative;
+     left : 20px;
+     color : #527a7a;
+     font-size : 15px;
+   }
+   #phones-span {
+     left : 28px
+   }
+}
+
+}

@@ -1,0 +1,347 @@
+.containers{
+ width : 80%;
+ border : 1px solid lightgrey;
+ margin-top: 20px;
+ //margin-left :auto;
+ //margin-right : auto;
+ border-top : 0px;
+ border-bottom: 1px solid lightgrey;
+ //margin-bottom : 60px;
+  padding-left : 15%;
+  border: 1px solid rgba(15,186,178,.1);
+}
+#user-messages-container {
+  width : 80%;
+ margin-left : auto;
+ margin-right : auto;
+ padding-left: 0px;
+  margin-bottom : 40px;
+}
+
+#messages-div {
+  width : 80%;
+  border : none;
+  margin-top: 20px;
+  margin-left :auto;
+  margin-right : auto;
+background-color: #fff;
+color : #10bbb3;
+
+font-family: Cairo;
+  height : 50px;
+margin-top : 100px;
+  font-weight : bold;
+  border-radius: 5px;
+  font-size: 22px;
+  line-height: 1.9em;
+  text-indent: .6em;
+    
+}
+.messages-links{
+
+  display: block;
+  width : ;
+  margin : 0px auto;
+  text-align: center;
+  background-color : #fff;
+  border-top : 1px solid lightgrey;
+  text-decoration: none;
+  font-size: 18px;
+  color : blue;
+  font-weight: \bold;
+  padding : 12px 0px;
+  border-radius: 1px;
+  font-family: Cairo;
+  //font-weight: bold;
+
+}
+
+#messages-span {
+  height : 20px;
+  display: block;
+  //background-color : #fff;
+
+  text-align: center;
+  //margin-bottom: 12px;
+  color : grey;
+  width : 80%;
+  margin-left : auto;
+  margin-right : auto;
+  margin-bottom: 60px;
+  border : 0px solid lightgrey;
+   border-top : 0px solid lightgrey;
+}
+#ads-loader{
+  border : none;
+}
+#user-ads-container{
+  border : none;
+}
+
+.ad-title{
+  color : skyblue;
+}
+#messages-count {
+  display: block;
+  width : 80%;
+  margin : 10px auto;
+  //border : 1px solid grey;
+  text-align: right;
+  font-family: Cairo;
+    
+}
+
+#inbox-container{
+  margin-top : 80px;
+  background-color : #fff;
+  border: 1px solid rgba(15,186,178,.1);
+  width : 80%;
+  margin : 80px auto;
+  padding : 50px;
+}
+.message-headers{
+  width : 100%;
+  font-family: "cairo" , Segoe UI,Arial,sans-serif;
+  margin-top : 20px;
+}
+
+#message-time {
+  font-family:  Arial;
+  margin-top : 25px;
+  position: relative;
+  left : 80%;
+  margin-bottom: -12px;
+  font-weight: bold;
+  color : grey;
+  display: inline-block;
+}
+.message-spans-headers{
+  display: inline-block;
+  //border : 1px solid  grey;
+  width : 100px;
+}
+
+#message-ad {
+  font-weight: bold;
+  font-size : 20px;
+  font-family: Segoe UI;
+  color : #10bbb3;
+}
+
+#message-text{
+  display: block;
+  margin-left : 120px;
+  position: relative;
+  margin-top : 20px;
+}
+#send-message-hide-div{
+  width : 415px;
+   margin-top : 50px;
+  margin-left : 10px;
+}
+#send-message-button{
+  width : 420px;
+  margin-left : 0px;
+}
+
+
+.text-inputs{
+  width : 400px;
+  margin-left : 0px;
+}
+#send-message-form{
+ border : 0px solid grey;
+  text-align: left;
+}
+
+.message-warnings{
+  width : 415px;
+}
+#form-field{
+  border : none;
+}
+
+
+@media only screen and (max-width: 608px) {
+
+  #site-footer {
+    
+    position: fixed;
+    width : 100%;
+    bottom: 0;
+    left : 0;
+    right : 0;
+    
+  }
+  .containers{
+ width : 80%;
+ border : 1px solid lightgrey;
+ margin-top: 20px;
+ //margin-left :auto;
+ //margin-right : auto;
+ border-top : 0px;
+ border-bottom: 1px solid lightgrey;
+ //margin-bottom : 60px;
+  padding-left : 15%;
+  border: 1px solid rgba(15,186,178,.1);
+}
+#user-messages-container {
+  width : 80%;
+ margin-left : auto;
+ margin-right : auto;
+ padding-left: 0px;
+  margin-bottom : 40px;
+}
+
+#messages-div {
+  width : 80%;
+  border : none;
+  margin-top: 20px;
+  margin-left :auto;
+  margin-right : auto;
+background-color: #fff;
+color : #10bbb3;
+
+font-family: Cairo;
+  height : 50px;
+margin-top : 100px;
+  font-weight : bold;
+  border-radius: 5px;
+  font-size: 22px;
+  line-height: 1.9em;
+  text-indent: .6em;
+    
+}
+.messages-links{
+
+  display: block;
+  width : ;
+  margin : 0px auto;
+  text-align: center;
+  background-color : #fff;
+  border-top : 1px solid lightgrey;
+  text-decoration: none;
+  font-size: 18px;
+  color : blue;
+  font-weight: \bold;
+  padding : 12px 0px;
+  border-radius: 1px;
+  font-family: Cairo;
+  //font-weight: bold;
+
+}
+
+#messages-span {
+  height : 20px;
+  display: block;
+  //background-color : #fff;
+
+  text-align: center;
+  //margin-bottom: 12px;
+  color : grey;
+  width : 80%;
+  margin-left : auto;
+  margin-right : auto;
+  margin-bottom: 60px;
+  border : 0px solid lightgrey;
+   border-top : 0px solid lightgrey;
+}
+#ads-loader{
+  border : none;
+}
+#user-ads-container{
+  border : none;
+}
+
+.ad-title{
+  color : skyblue;
+}
+#messages-count {
+  display: block;
+  width : 80%;
+  margin : 10px auto;
+  //border : 1px solid grey;
+  text-align: right;
+  font-family: Cairo;
+    
+}
+
+#inbox-container{
+  margin-top : 80px;
+  background-color : #fff;
+  border: 1px solid rgba(15,186,178,.1);
+  width : 100%;
+  margin : 80px auto;
+  padding : 0px;
+}
+.message-headers{
+  width : 100%;
+  font-family: "cairo" , Segoe UI,Arial,sans-serif;
+  margin-top : 20px;
+}
+
+#message-time {
+  font-family:  Arial;
+  margin-top : 25px;
+  position: relative;
+  left : 0%;
+  margin-bottom: -12px;
+  font-weight: bold;
+  color : grey;
+  display: inline-block;
+}
+.message-spans-headers{
+  display: inline-block;
+  //border : 1px solid  grey;
+  width : 100px;
+}
+
+#message-ad {
+  font-weight: bold;
+  font-size : 20px;
+  font-family: Segoe UI;
+  color : #10bbb3;
+}
+
+#message-text{
+  display: block;
+  margin-left : 120px;
+  position: relative;
+  margin-top : 20px;
+}
+#send-message-hide-div{
+  width : 90%;
+   margin-top : 50px;
+  margin-left : 10px;
+}
+#send-message-button{
+  width : 40%;
+  margin-left : 0px;
+}
+
+  #phone {
+    display: inline-block;
+  margin-left : 0px;
+    position: relative;
+    left : 0px;
+  }
+
+.text-inputs{
+  width : 90%;
+  margin-left : 0px;
+}
+#send-message-form{
+ border : 0px solid grey;
+  text-align: left;
+}
+
+.message-warnings{
+  width : 415px;
+}
+#form-field{
+  border : none;
+}
+  .text-inputs .message-text-inputs {
+    width : 50%;
+  }
+}

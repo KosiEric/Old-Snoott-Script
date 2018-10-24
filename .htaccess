@@ -1,0 +1,50 @@
+
+<filesMatch "\.(html|htm|js|css)$">
+  FileETag None
+  <ifModule mod_headers.c>
+     Header unset ETag
+     Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+     Header set Pragma "no-cache"
+     Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+  </ifModule>
+</filesMatch>
+php_flag log_errors Off
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+Options -Indexes
+RewriteEngine on
+RewriteRule ^([^/.]+)/?$ $1.php
+RewriteRule ^([^/.]+)/?$ $1.html
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule .* - [L]
+#RewriteRule (.*)$ profile.php?u=$1 [NC]
+Options All -Indexes
+RewriteRule ^conf/([a-zA-Z0-9_-]+)$ conf.php?token=$1
+RewriteRule ^conf/([a-zA-Z0-9_-]+)/$ conf.php?token=$1
+
+RewriteRule ^pass/([a-zA-Z0-9_-]+)$ pass.php?token=$1
+RewriteRule ^pass/([a-zA-Z0-9_-]+)/$ pass.php?token=$1
+
+RewriteRule ^edit-ad/([a-zA-Z0-9_-]+)$ edit-ad.php?id=$1
+RewriteRule ^edit-ad/([a-zA-Z0-9_-]+)/$ edit-ad.php?id=$1
+RewriteRule ^ad/([a-zA-Z0-9_-]+)$ ad.php?id=$1
+RewriteRule ^ad/([a-zA-Z0-9_-]+)/$ ad.php?id=$1
+RewriteRule ^messages/([a-zA-Z0-9_-]+)$ messages.php?id=$1
+RewriteRule ^messages/([a-zA-Z0-9_-]+)/$ messages.php?id=$1
+RewriteRule ^user/([a-zA-Z0-9_-]+)$ user.php?id=$1
+RewriteRule ^user/([a-zA-Z0-9_-]+)/$ user.php?id=$1
+RewriteRule ^category/([a-zA-Z0-9_-]+)$ category.php?token=$1
+ErrorDocument 403 "/404.php"
+ErrorDocument 404 "/404.php"
+ErrorDocument 406 "/404.php"
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+
+</IfModule>
+# END cPanel-generated php ini directives, do not edit

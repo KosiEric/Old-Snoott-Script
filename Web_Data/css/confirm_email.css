@@ -1,0 +1,86 @@
+
+#verify_email_alert_box{
+  width : 80%;
+  display: block;
+  position: relative;
+ margin : 80px auto 130px auto;
+  background-color : #fff;
+  height :;
+  padding-bottom: 20px;
+  text-align: left;
+  border: 1px solid rgba(15,186,178,.1);
+  background-color : #fff;
+}
+
+#verify_email_alert_text{
+  display: block;
+  font-size : 20px;
+  color : rgba(45 , 67 , 78 , 0.5);
+//    border : 1px solid grey;
+  position: relative;
+  top : 12px;
+  margin-bottom: 25px;
+  font-family: "Cairo";
+  font-weight : 400;
+  text-align: center;
+}
+
+#show_email_box_button{
+  
+  color: #0da39c;
+background-color: transparent;
+border:1px solid  #10BBB3;
+  height : 30px;
+  border-radius: 5%;
+   font-weight: 400;
+  font-family: "Cairo";
+  font-size: 17px;
+  cursor: pointer;
+ //width : 100px;
+ margin-left: auto;
+  margin-right : auto;
+  display: block;
+}
+#show_email_box_button:hover{
+
+   border: 1px solid rgba(15,186,178,.1); 
+  color : #fff;
+  background-color: #10bbb3;
+ }
+@media only screen and (max-width: 400px) {
+#show_email_box_button{
+  
+  color: #0da39c;
+background-color: transparent;
+border:1px solid  #10BBB3;
+  height : 30px;
+  border-radius: 5%;
+   font-weight: 400;
+  font-family: "Cairo";
+  font-size: 17px;
+  cursor: pointer;
+ //width : 100px;
+ margin-left: auto;
+  margin-right : auto;
+  display: block;
+}
+#show_email_box_button:hover{
+
+   border: 1px solid rgba(15,186,178,.1); 
+  color : #fff;
+  background-color: #10bbb3;
+ }
+  #verify_email_alert_box{
+  width : 90%;
+  display: block;
+  position: relative;
+ margin : 80px auto 130px auto;
+  background-color : #fff;
+  height : ;
+  text-align: left;
+  border: 1px solid rgba(15,186,178,.1);
+  background-color : #fff;
+    padding-bottom: 20px;
+}
+
+}

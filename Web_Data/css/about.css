@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(245, 248, 250);
+  
+}
+
+#about-container {
+  
+  margin : 80px auto;
+    width : 80%;
+   
+}
+
+.about-texts {
+  color : rgb(30, 57, 72);
+    font-family: Cairo;
+    font-size: 14px;
+    font-weight: 300;
+letter-spacing: 0px;
+//line-height: 22.4px;
+//margin-bottom: 11px;
+//margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+  display: inline-block;
+  
+}
+.about-headers , #about-header {
+  display: block;
+    font-weight : bold;
+    margin-bottom : 1px;
+    margin-top : 20px;
+    font-size: 18px;
+    font-family: Cairo;
+    color: rgb(30, 57, 72);
+
+}
+
+#about-header {
+    font-size: 26px;
+  display: block;
+  margin-bottom: 2px;
+}
+#line {
+  display: block;
+  border :1px solid lightgrey;
+  border-bottom: none;
+  margin-top : 18px;
+}
